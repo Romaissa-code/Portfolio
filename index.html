@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d293919c65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header >
+        <nav class="navBar">
+            <button type="button" class="bars">
+               <i class="fa-solid fa-bars"> </i>
+            </button>
+            <div class="logo">
+                <h2><span class="first">R</span>oma</h2>
+            </div>
+            <ul class="links" >
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About-me">About me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="Home">
+        <div class="intro-container">
+            <div class="social-icons">
+                <ul >
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100063919942700">
+                        <i class="fa-brands fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/romeissa-bakhouche-7a71b2206/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/Romaissa-code">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="intro-text">
+              <p>  Hi, I'm <span>R</span>omaissa <br>A<span > FRONTEND </span>Developper</p>
+              <button  class="contact"><a href="#contact" class="contact1">Contact me</a></button>
+            </div>
+            
+            <div  class="intro-img">
+              <img src="images/pc.png" alt="a pc" >
+            </div>
+        </div>
+    </section >
+
+
+
+    <section class="skills" id="About-me">
+
+    <div class="wrapper"> 
+      <div class="about-content">
+            <h1 class="about-title">About Me</h1>
+            <h3 class="about-title2">FRONTEND web developper</h3>
+            <div class="about-p">
+              Hi, I'm Romaissa  and I graduated from the Institute of Electrical & Electronic Engineering (IGEE) of Algeria in 
+              2022 with a degree in Computer enginnering
+              My primary interest and area of expertise has always been web development;
+              I adore creating engaging, functional websites that provide excellent user experiences.
+              I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer.
+            </div>
+            <a href="resume.pdf "  class="readMore" target="_blank">Download Resume</a>
+      </div>
+
+     <div class="skills-container">
+          <div class="title">
+              <h1>Skills</h1>
+          </div>
+          <div>
+              <p class="html">HTML5</p>
+              <div class="progress-container">
+              <div class="progress"></div>
+              </div>
+          </div>
+          <div>
+              <p class="css">CSS3</p>
+              <div class="progress-container">
+                <div class="progress p2"></div>
+              </div>
+          </div>
+          <div>
+              <p class="js">JavaScript </p>
+              <div class="progress-container">
+                <div class="progress p3"></div>
+              </div>
+          </div>
+     
+          <!-- <div>
+            <p class="Bootstrap">Bootstrap</p>
+            <div class="progress-container">
+              <div class="progress p4"></div>
+            </div>
+          </div>
+
+          <div>
+            <p class="react">React</p>
+            <div class="progress-container">
+              <div class="progress p5"></div>
+            </div>
+          </div> -->
+     </div>
+    </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="overlay">
+          <div class="viewCode-container">
+              <i class="fa-solid fa-xmark"id="closeBtn"></i>
+              <h1 class="project-title">A Delivery Agency </h1>
+              <div class="projects-img">
+                <i class="fa-solid fa-angle-left" id="left"></i>
+                <img  id="currentImg">
+                <i class="fa-solid fa-angle-right" id="right"></i>
+            </div>
+            <div class="project-links">
+                <p><b>ViewCode: </b> <a href="www.google.com" id="codeLink">Google.com</a></p>
+                <!-- if u want to add the webste link -->
+            </div>
+          </div>
+      </div>
+  
+      <div class="work-wrapper">
+          <h1 class="work-title">Work</h1>
+          <p class="work-content">Have a look into my previous projects!</p>
+      </div>
+       <div class="work-container">
+            <div>
+                <img src="images/d.jpg" alt="delivery">
+                <div class="content" data-title="Delivery Agency">Delivery Agency
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+            <div>
+                <img src="images/d.jpg" alt="a picture">
+                <div class="content" data-title="Delivery Agency Admin">Delivery Agency Admin
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+            <div>
+                <img src="images/gra.jpg" alt="a picture">
+                <div class="content">project3
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+            <div>
+                <img src="images/gra.jpg" alt="a picture">
+                <div class="content">project4
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+            <div>
+                <img src="images/gra.jpg" alt="a picture">
+                <div class="content">project5
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+            <div>
+                <img src="images/gra.jpg" alt="a picture">
+                <div class="content">project5
+                  <button   type="button" class="code-btn"> view project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactMe" id="contact">
+      <div class="contact-container">
+         <h1 class="contact-title">Contact me</h1>
+         <h4>If you have any requests or question fill free to contact me</h4>
+         <p class="mail">rombakhouche@gmail.com</p>
+         <div class="contact-icons">
+          <ul >
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100063919942700">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/romeissa-bakhouche-7a71b2206/">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Romaissa-code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+         </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
