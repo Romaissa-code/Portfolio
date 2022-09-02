@@ -26,7 +26,7 @@ const overlay=document.querySelector(".overlay");
 const closeBtn=document.getElementById("closeBtn"); 
 
 // const webLink =document.getElementById("webLink");
-const codeLink =document.getElementById("codeLink");
+const siteLink=document.getElementById("siteLink");
 const projectTitle=document.querySelector(".project-title"); 
 let count =0 ; let position;
 
@@ -42,7 +42,7 @@ codeBtn.forEach((btn)=>{
        if(item.title==projectName){
         projectTitle.innerHTML=item.title; 
         //webLink.innerHTML=item.webLink;
-        codeLink.innerHTML=item.codeLink
+        siteLink.innerHTML=item.siteLink
         position=index; 
         img.src=item.images[0].source;// to show the default image
 
@@ -65,18 +65,13 @@ closeBtn.addEventListener("click",()=>{
 
 let content=[{
     title:"Delivery Agency",
-  //  webLink:"one",
-    codeLink:"not hosted yet",
+    siteLink:"Delivery Agency",
     images:[{source:"images/num1.png"},{source:"images/num2.png"},{source:"images/num3.png"}] 
     // keep in mind that the images need to have 
     // the same width                      
 },
-{
-    title:"Delivery Agency Admin",
-   // webLink:"two",
-    codeLink:"not hosted yet",
-    images:[{source:"images/login.png"},{source:"images/list.png"}]
-}
+
+// {here add information of each project}
 ]
 
 
