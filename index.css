@@ -64,7 +64,7 @@ body{
 }
 
 .project-links a{
-    text-decoration: none;
+
     color: white;
 }
 #left,#right{
@@ -226,7 +226,7 @@ html{
 .contact{
    padding: 10px 15px;
 
-   margin-top: 20px;
+   margin: 20px 0;
    font-size: 25px;
    font-weight: bold;
    background-color: transparent;
@@ -416,8 +416,8 @@ html{
     margin: auto;
    
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows:repeat(2,190px);
-    padding-bottom: 30px;
+    grid-template-rows:repeat(2,210px);
+    padding-bottom: 40px;
     height:fit-content;
 
 }
@@ -480,6 +480,7 @@ html{
     border-radius: 50%;
 
 }
+
 .about-image{
     background-color: #18191c;
   width:80%;
@@ -502,10 +503,10 @@ html{
     text-transform: capitalize;
 }
 .about-p{
-   line-height: 1.5em;
-   margin-bottom: 20px;
-
+    margin-bottom: 20px;
+    line-height: 1.2em;
 }
+
 .mail{
     color: #566184;
    font-size: 20px;
@@ -558,6 +559,13 @@ html{
    list-style-type: none;
    padding: 5px 10px;
 }
+.websiteLink{
+       display:none ; 
+}
+.websiteLink a{
+    color: #486FF8;
+    font-size: 19px;
+}
 
 @media (max-width:800px) {
     .intro-img{
@@ -568,6 +576,7 @@ html{
     }
     .work-container{
         width: 90%;
+        
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3,150px);
         height: fit-content;
@@ -592,11 +601,25 @@ html{
         width: 100%;
     }
     .projects-img{
-        width: 80%;
+        width: 75%;
     }
     .project-links{
         margin-top: 40px;
         
+    }
+    .intro-text{
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 35px;
+    }
+    .overlay{
+        display: none;
+    }
+    .code-btn{
+        display: none;
+    }
+    .websiteLink{
+        display: block;
     }
 }
 
@@ -646,14 +669,18 @@ html{
         display: none;
     }
     
-   
-   
-   
-    /* .overlay{
-        display: none;
-    } */
-    .intro-text{
+    .about-content{
         text-align: center;
-        letter-spacing: 5px;
+     
+     }
+    .social-icons{
+        display: none;
     }
+    .work-container{
+        width: 70%;
+        grid-template-columns: 1fr ;
+        grid-auto-rows: 180px;
+        height: fit-content;
+    } 
+   
 }
