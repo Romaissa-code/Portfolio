@@ -28,6 +28,7 @@ const closeBtn=document.getElementById("closeBtn");
 // const webLink =document.getElementById("webLink");
 const siteLink=document.getElementById("siteLink");
 const projectTitle=document.querySelector(".project-title"); 
+
 let count =0 ; let position;
 
 const left=document.getElementById("left"); 
@@ -40,9 +41,11 @@ codeBtn.forEach((btn)=>{
 
      content.forEach((item,index)=>{
        if(item.title==projectName){
+      
         projectTitle.innerHTML=item.title; 
         //webLink.innerHTML=item.webLink;
-        siteLink.innerHTML=item.siteLink
+        siteLink.innerHTML = item.title;
+        siteLink.href = item.siteLink;
         position=index; 
         img.src=item.images[0].source;// to show the default image
 
@@ -63,16 +66,42 @@ closeBtn.addEventListener("click",()=>{
     img.src=pic[count].source;
 }
 
-let content=[{
-    title:"Delivery Agency",
-    siteLink:"Delivery Agency",
-    images:[{source:"images/num1.png"},{source:"images/num2.png"},{source:"images/num3.png"}] 
-    // keep in mind that the images need to have 
-    // the same width                      
-},
-
-// {here add information of each project}
-]
+let content = [
+  {
+    title: "Delivery Agency",
+    siteLink:
+      "https://romaissa-code.github.io/Romaissa-code.github.io-delivery/",
+    images: [
+      { source: "images/num1.png" },
+      { source: "images/num2.png" },
+      { source: "images/num3.png" },
+    ],
+    // keep in mind that the images need to have
+    // the same width
+  },
+  {
+    title: "Industrial Power Solution",
+    siteLink: "https://romaissa-code.github.io/ips/",
+    images: [
+      { source: "IPS/ONE.PNG" },
+      { source: "IPS/TWO.PNG" },
+      { source: "IPS/THREE.PNG" },
+      { source: "IPS/FOUR.PNG" },
+    ],
+  },
+  {
+    title: "eBooks",
+    siteLink: "https://romaissa-code.github.io/ebook/",
+    images: [
+      { source: "ebook/one.PNG" },
+      { source: "ebook/two.PNG" },
+      { source: "ebook/three.PNG" },
+      { source: "ebook/four.PNG" },
+      { source: "ebook/five.PNG" },
+      { source: "ebook/six.PNG" },
+    ],
+  },
+];
 
 
 left.addEventListener("click",()=>{
