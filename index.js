@@ -93,12 +93,12 @@ let content = [
     title: "eBooks",
     siteLink: "https://romaissa-code.github.io/ebook/",
     images: [
-      { source: "ebook/one.PNG" },
-      { source: "ebook/two.PNG" },
-      { source: "ebook/three.PNG" },
-      { source: "ebook/four.PNG" },
-      { source: "ebook/five.PNG" },
-      { source: "ebook/six.PNG" },
+      { source: "ebook/one.png" },
+      { source: "ebook/two.png" },
+      { source: "ebook/three.png" },
+      { source: "ebook/four.png" },
+      { source: "ebook/five.png" },
+      { source: "ebook/six.png" },
     ],
   },
 ];
