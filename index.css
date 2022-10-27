@@ -342,7 +342,7 @@ html{
 .progress{
     border-radius: 5px 5px;
     height: 7px;
-    width: 80%;
+    width: 90%;
     background-color:  #D54292;
     box-shadow: 1px 1px 2px #D54292;
     transform: scaleX(0);
@@ -360,16 +360,16 @@ html{
     
 }
 .p2{
-    width: 75%;
+    width: 85%;
 }
 .p3{
-    width: 70%;
+    width: 80%;
 }
 .p4{
-    width: 40%;
+    width: 80%;
 }
 .p5{
-    width: 30%;
+    width: 60%;
 }
 
 @keyframes animate {
