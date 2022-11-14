@@ -99,7 +99,6 @@ body {
   display: none;
   position: absolute;
   right: 6%;
-  top: 3%;
   font-size: 30px;
   color: #d54292;
   background: transparent;
@@ -402,7 +401,7 @@ html {
   text-align: center;
   width: 100%;
   height: 100%;
-  font-size: 30px;
+  font-size: 25px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -623,7 +622,7 @@ html {
   }
 
   .about-content {
-    text-align: center;
+    text-align: justify;
   }
   .social-icons {
     display: none;
