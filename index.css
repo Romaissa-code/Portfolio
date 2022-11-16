@@ -178,7 +178,7 @@ html {
   height: fit-content;
   padding-top: 40px;
   position: relative;
-  background-image: url("images/s.png");
+  background-image: url("new-images/s.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -348,7 +348,7 @@ html {
   }
 }
 .work {
-  background: url("images/s.png");
+  background: url("new-images/s.png");
   background-position: center;
   color: white;
   background-size: cover;
