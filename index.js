@@ -72,9 +72,9 @@ let content = [
     siteLink:
       "https://romaissa-code.github.io/Romaissa-code.github.io-delivery/",
     images: [
-      { source: "images/num1.png" },
-      { source: "images/num2.png" },
-      { source: "images/num3.png" },
+      { source: "new-images/delivery-one.png" },
+      { source: "new-images/delivery-two.png" },
+      { source: "new-images/delivery-three.png" },
     ],
     // keep in mind that the images need to have
     // the same width
@@ -83,22 +83,21 @@ let content = [
     title: "Industrial Power Solution",
     siteLink: "https://romaissa-code.github.io/ips/",
     images: [
-      { source: "IPS/ONE.PNG" },
-      { source: "IPS/TWO.PNG" },
-      { source: "IPS/THREE.PNG" },
-      { source: "IPS/FOUR.PNG" },
+      { source: "new-images/ips-one.PNG" },
+      { source: "new-images/ips-two.PNG" },
+      { source: "new-images/ips-three.PNG" },
+      { source: "new-images/ips-four.PNG" },
     ],
   },
   {
     title: "eBooks",
     siteLink: "https://romaissa-code.github.io/ebook/",
     images: [
-      { source: "/ebookImages/one.png" },
-      { source: "/ebookImages/two.png" },
-      { source: "/ebookImages/three.png" },
-      { source: "/ebookImages/four.png" },
-      { source: "/ebookImages/five.png" },
-     
+      { source: "new-images/book-one.PNG" },
+      { source: "new-images/book-two.PNG" },
+      { source: "new-images/book-three.PNG" },
+      { source: "new-images/book-four.PNG" },
+      { source: "new-images/book-five.PNG" },
     ],
   },
 ];
